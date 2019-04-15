@@ -10,7 +10,7 @@ def decodable(message):
     if message[0] == '0':
         return False
     
-    elif int(message) >= 100 and int(message) % 10 == 0:
+    elif int(message) >= 27 and int(message) % 10 == 0:
         return False
     
     else:
